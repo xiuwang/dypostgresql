@@ -8,7 +8,7 @@ Cartridge-Vendor:     dy
 Display-Name: PostgreSQL Database 9.2
 Description: "PostgreSQL is an advanced Object-Relational database management system"
 Version:   '9.2'
-Versions:  ['8.4', '9.2']
+Versions:  [9.2]
 License:   ASL 2.0
 Vendor:    redhat
 Website: http://www.postgresql.org
@@ -46,13 +46,13 @@ Endpoints:
     Private-Port-Name: DB_PORT
     Private-Port:      5432
     Public-Port-Name:  DB_PROXY_PORT
-Version-Overrides:
-  '8.4':
-    Display-Name: PostgreSQL Database 8.4
-    Provides:
-      - postgresql-8.4
-      - "postgresql"
-      - "postgresql(version) = 8.4"
+#Version-Overrides:
+#  '8.4':
+#    Display-Name: PostgreSQL Database 8.4
+#    Provides:
+#      - postgresql-8.4
+#      - "postgresql"
+#      - "postgresql(version) = 8.4"
 
 
 Install-Build-Required: false
