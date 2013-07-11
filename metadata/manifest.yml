@@ -10,7 +10,7 @@ Description: "PostgreSQL is an advanced Object-Relational database management sy
 Version:   '9.2'
 Versions:  ['8.4', '9.2']
 License:   ASL 2.0
-Vendor:    dy
+Vendor:    redhat
 Website: http://www.postgresql.org
 Categories:
   - service
