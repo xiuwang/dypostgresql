@@ -62,5 +62,5 @@ Install-Build-Required: false
 #Source-Md5: d916798a7e218f12b476bf1dee645f9d
 #Source-Url: https://github.com/duyanyan/dymysql/raw/master/dymysql.tar.gz
 #Source-Url: https://github.com/duyanyan/dymysql/raw/master/dymysql.zip
-#Source-Url: https://github.com/duyanyan/dymysql.git
-Source-Url: git://github.com/duyanyan/dypostgresql.git
+Source-Url: https://github.com/duyanyan/dymysql.git
+#Source-Url: git://github.com/duyanyan/dypostgresql.git
